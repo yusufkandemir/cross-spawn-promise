@@ -19,7 +19,7 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp build",
-    "prepublish": "in-publish && npm run build || not-in-publish",
+    "prepare": "npm run build",
     "test": "gulp test"
   },
   "repository": "zentrick/cross-spawn-promise",
